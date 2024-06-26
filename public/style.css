@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Figtree, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+/* Header */
+header {
+    height: 56px;
+    width: 100vw;
+    backdrop-filter: blur(50px);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 200;
+}
+
+/* Logo */
+#logo {
+    width: 120px;
+    height: 12px;
+    padding: 8px 16px;
+    margin: 0 32px;
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    padding: 6px;
+}
+
+a {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 16px;
+    color: white;
+}
+
+nav a:hover, nav a:active {
+    background-color: lightgray;
+    color: black;
+    border-radius: 4px;
+}
+
+#icons {
+    padding: 12px 48px;
+}
+
+#icons a {
+    margin: 5px;
+    padding: 0;
+}
+
+#icons a:hover, #icons a:active {
+    background-color: lightgray;
+}
+
+.slide {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+/* #model-y {
+    background-image: url(images/bg_model_y.jpg);
+} */
+
+#model-3 {
+    background-image: url(./images/bg_model_3.png);
+}
+
+#model-x {
+    background-image: url(images/bg_model_x.png);
+}
+
+#model-s {
+    background-image: url(images/bg_model_s.png);
+}
+
+#cybertruck {
+    background-image: url(images/bg_cybertruck.png);
+}
+
+#solar-panels {
+    background-image: url(images/bg_solar_panels.png);
+}
+
+#solar-roof {
+    background-image: url(images/bg_solar_roof.png);
+}
+
+#powerwall {
+    background-image: url(images/bg_powerwall.png);
+}
+
+#accessories {
+    background-image: url(images/bg_accessories.png);
+}
+
+h1 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.description {
+    position: absolute;
+    top: 128px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.description > p {
+    margin: 2px 0;
+}
+
+.subscript {
+    font-size: 12px;
+}
+
+.bottom-hero {
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+    width: 100vw;
+    padding: 0;
+    text-align: center;
+}
+
+.bottom-hero a {
+    padding: 0;
+    border-bottom: 1px solid white;
+}
+
+.black {
+    color: black;
+}
+
+.black a {
+    color: black;
+    border-bottom-color: black;
+}
+
+.buttons a {
+    display: inline-block;
+    width: 184px;
+    margin: 0 12px;
+    padding: 11px 40px;
+    background-color: rgba(244, 244, 244, 0.8);
+    color: black;
+    border: none;
+    border-radius: 4px;
+}
+
+a.black {
+    background-color: rgba(23, 26, 32, 0.65);
+    color: white;
+}
+
+.disclaimer {
+    height: 52px;
+    margin-top: 32px;
+    font-weight: 400;
+}
+
+.disclaimer a {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+#bottom-nav {
+    margin-top: 32px;
+}
+
+#bottom-nav a {
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(208, 209, 210, 1);
+    text-decoration: none;
+    border: none;
+    margin: 25px 5px;
+    padding: 0;
+}
